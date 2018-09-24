@@ -23,7 +23,7 @@ Copy into *mpc* all mpc files of the targets you wish to create stamp images for
 
 Open runElements.py. Go to line 102 and edit the *files* array. One entry per target. Each entry must contain the full relative path to the mpc file in question. Adjust the two for-loops below according to which dates you care to generate ephemerides for. Each loop covers a year.
 
-Execute runElements.py. It will create an ephemeris file in the Gemini format for each target, as well as a master ephemeris file that contains the full contents of each target's ephemeris file.
+Execute runElements.py. It will create an ephemeris file in the Gemini format for each target, as well as a master ephemeris file that contains the full contents of each target's ephemeris file. *The ephemeris is for the 568 Mauna Kea site.*
 
 A window will pop up showing the ephemerides of all targets you have specified. Make sure that looks reasonable.
 

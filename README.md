@@ -18,6 +18,7 @@ Create two directories, *mpc*, and *ephs*.
 
 Copy into *mpc* all mpc files of the targets you wish to create stamp images for.
 
+
 2) **execute runElements.py**
 
 Open runElements.py. Go to line 102 and edit the *files* array. One entry per target. Each entry must contain the full relative path to the mpc file in question. Adjust the two for-loops below according to which dates you care to generate ephemerides for. Each loop covers a year.

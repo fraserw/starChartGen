@@ -5,8 +5,8 @@ Requirements:
 -------------
 
  * panstamps https://pypi.org/project/panstamps/
- * pyephem
- * mp_ephem
+ * pyephem (http://rhodesmill.org/pyephem/)
+ * mp_ephem (get from OSSOS/JJ/Michele)
  * montage and montage_wrapper (http://www.astropy.org/montage-wrapper/)
 
 Steps to run:
